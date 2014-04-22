@@ -3,10 +3,10 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  
+
   api.use("jquery", "client");
 
-  api.add_files("lib/toastr.min.js", "client");
-  api.add_files("lib/toastr.min.css", "client");
-  
+  api.add_files("lib/toastr.js", "client");
+  api.add_files("lib/toastr.css", "client");
+
 });
